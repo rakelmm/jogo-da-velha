@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Velha</title>
+</head>
+
+<body>
+
+<header>
+    <h1>Jogo da Velha</h1>
+    <h2>Jogador da vez: <span id="sJogadorDaVez">X</span></h2>
+    <h2 id="vencedor"></h2>
+</header>
+
+<main>
+    <div class="tile_row">
+        <span class="tile" onclick="checaTurno(event, 1)"></span>
+        <span class="tile" onclick="checaTurno(event, 2)"></span>
+        <span class="tile" onclick="checaTurno(event, 3)"></span>
+    </div>
+    <div class="tile_row">
+        <span class="tile" onclick="checaTurno(event, 4)"></span>
+        <span class="tile" onclick="checaTurno(event, 5)"></span>
+        <span class="tile" onclick="checaTurno(event, 6)"></span>
+    </div>
+    <div class="tile_row">
+        <span class="tile" onclick="checaTurno(event, 7)"></span>
+        <span class="tile" onclick="checaTurno(event, 8)"></span>
+        <span class="tile" onclick="checaTurno(event, 9)"></span>
+    </div>
+    <button onclick="limparTela()">Reiniciar</button>
+</main>
+
+<script src="script.js"></script>
+</body>
+
+</html>

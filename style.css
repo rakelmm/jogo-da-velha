@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Courier New', serif;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Courier New', serif;
+    font-size: 2rem;
+}
+
+.tile_row {
+    float: left;
+    width: 100%;
+}
+
+.tile {
+    float: left;
+    width: 150px;
+    height: 150px;
+    background-color: cadetblue;
+    margin: 4px;
+    border: none;
+    font-size: 8rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile:hover {
+    background-color: orange;
+    cursor: pointer;
+}
+
+button{
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 10px;
+    margin: 2rem 6rem;
+    font-size: 3rem;
+    padding: 1.5rem;
+    color: white;
+    font-family: 'Courier New', serif;
+}
